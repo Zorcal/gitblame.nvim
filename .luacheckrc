@@ -1,14 +1,9 @@
-max_comment_line_length = false
-codes = true
-
 ignore = {
-	"212", -- Unused argument
-	"631", -- Line is too long
-	"122", -- Setting a readonly global
+  '631', -- max_line_length
 }
-
 read_globals = {
-	"vim",
-	"a",
-	"assert",
+  'vim',
+  'describe',
+  'it',
+  'assert',
 }
